@@ -2,6 +2,10 @@ package modelo.dao;
 
 import java.util.ArrayList;
 import modelo.javabean.Contacto;
+
+/*
+* EN ESTA SECCION CREAMOS LA LISTA DE DATOS , E IMPLEMENTAMOS LOS METODOS QUE USAREMOS LUEGO EN EL TEST
+* */
 //implementamos
 public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
 
