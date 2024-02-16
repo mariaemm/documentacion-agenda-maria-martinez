@@ -4,7 +4,7 @@ import modelo.dao.AgendaDeContactosDaoImplArrayList;
 public class TestAgendaContactosDao {
 
 /*
-*  EN ESTE ARCHIVO , HACEMOS LOS TEST PARA  CONFIRMAR SI FUNCIONA
+*  EN ESTE ARCHIVO , HACEMOS LOS TEST : podemos
 *
 * */
     public class TestAgendaContactosDao {
