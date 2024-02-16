@@ -1,7 +1,10 @@
 package modelo.javabean;
 
 import java.util.Objects;
-
+/*
+ * AQUI ESTAN TODAS LAS CLASES DE CONTACTO, CON LOS CONSTRUCTORES(CON T0DO Y SIN NADA),
+ * GETTERS AND SETTERS, TO STRING Y EL HASCODE SOLO DE  nombre
+ * */
 public class Contacto {
 
     // STRINGS
