@@ -4,6 +4,12 @@ import modelo.javabean.Contacto;
 
 import java.util.ArrayList;
 
+
+/*
+ * METODOS EN EL QUE DAMOS DE ALTA A UN CONTACTO EN LA AGENDA, ELIMINAMOS, BUSCAMOS  O CAMBIAMOS EL CONTACTO
+ */
+
+
 public interface AgendaDeContactosDao {
 
     // IMPORTAMOS CONTACTO
