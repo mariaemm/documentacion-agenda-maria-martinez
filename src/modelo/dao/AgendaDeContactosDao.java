@@ -12,13 +12,14 @@ import.java.util.ArrayList;
 public interface AgendaDeContactosDao {
 
     // IMPORTAMOS CONTACTO
-    Boolean AltaContacto (Contacto contacto);
-    Boolean EliminarContacto (Contacto contacto);
+    boolean AltaContacto (Contacto contacto);
+    boolean EliminarContacto (Contacto contacto);
     Contacto buscarUno(String nombre);
     Contacto buscarTelefono(String telefono);
     Contacto buscarEmail(String email);
     ArrayList<Contacto> buscarContactosPorTresPrimeros (String nombre);
-    Boolean cambiarDatos (Contacto contacto);
+    boolean cambiarDatos (Contacto contacto);
     ArrayList<Contacto> ContactosPorEmpresa (String empresa);
+    ArrayList<Contacto>BuscarTodos(Contacto contacto);
 
 }
