@@ -37,7 +37,7 @@ public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
 
     // ---------------- IMPLEMENTAR METODOS DE AGENDA..ARRAYLIST
     @Override
-    public Boolean AltaContacto(Contacto contacto) { // PARA CONTACTOS Y DAR DE ALTA
+    public boolean AltaContacto(Contacto contacto) { // PARA CONTACTOS Y DAR DE ALTA
         if (!contactos.contains(contacto)) {
             contactos.add(contacto);
             return true;
@@ -47,7 +47,7 @@ public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
     }
 
     @Override
-    public Boolean EliminarContacto(Contacto contacto) {  // PARA ELIMINAR
+    public boolean EliminarContacto(Contacto contacto) {  // PARA ELIMINAR
         contactos.remove(contacto);
         return true;
     }
@@ -111,7 +111,7 @@ public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
     }
 
 
-    public Boolean cambiarDatos(Contacto contacto) { //  PARA CAMBIAR EN LA POS LOS DATOS
+    public boolean cambiarDatos(Contacto contacto) { //  PARA CAMBIAR EN LA POS LOS DATOS
         int pos = contactos.indexOf(contacto);
         if (pos == -1) {
             return false;
@@ -131,8 +131,18 @@ public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
 
         }
         return aux;
-    }
 
+
+    }
+/**
+* Este metodo lo agrego (Valeria para mejorar el codigo) con este metodo puedes ver todo tu Array y ver la lista de los contactos
+*/
+
+    @Override
+    public ArrayList<Contacto>BuscarTodos(Contacto contacto){
+
+	return Contactos;
+        }
 
 
 }
