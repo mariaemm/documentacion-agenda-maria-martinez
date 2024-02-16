@@ -6,6 +6,7 @@ import modelo.javabean.Contacto;
 public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
 
 
+
     private String nombreDeAgenda;
     private ArrayList<Contacto> contactos;
 
@@ -17,7 +18,9 @@ public class AgendaDeContactosDaoImplArrayList implements AgendaDeContactosDao {
 
         cargardatos(); }
 
-
+    /*
+     * CREAMOS UNA LISTA CON DATOS QUE USAREMOS DESPUES
+     * */
     private void cargardatos() {
 
         contactos.add(new Contacto ("alba","Gomez","649678455","alba@gmail.com","ZZZF"));
